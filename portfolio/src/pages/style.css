@@ -1,7 +1,27 @@
 #container-index {
     margin-top: 100px;
+    color: white;
+    font-size: 23px;
+}
+
+#container-portfolio {
+    margin-top: 100px;
+    font-size: 23px;
+}
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/y-so-serious.png");
 }
 img {
     border-radius: 50%;
 }
+
+h1 {
+    color:white;
+}
+h5 {
+    color:white;
+}
+
+
+
 

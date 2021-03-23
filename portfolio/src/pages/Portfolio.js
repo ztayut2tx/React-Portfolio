@@ -12,7 +12,7 @@ const Portfolio = () => {
                 <div className="col-md-8">
                     <h1>Portfolio</h1>
                     <h5 id="p-portfolio">Some Project's ive done or contributed too:</h5>
-                    <div className="row">
+                    <div className="row" id="projectBox">
                         <Project 
                             image={projects[0].image}
                             title={projects[0].title}
