@@ -1,15 +1,17 @@
 import React from 'react';
 import './style.css';
+import birthdayBoy from '../Assets/birthdayBoy.jpg'
 
 const Home = () => {
     return (
         <div className="container" id="container-index">
             <div className="row">
-                <div className="col-md-2">
+                <div className="col-md-3" id= "pic">
+                <img src={birthdayBoy} alt="zach taylor" height={250} width={250} />  
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-7">
                     <h1 id="h1-about">Hello! My name is Zach Taylor.</h1>
-                    <h1 id="h1-about">I'm a full-stack web developer located in Seguin Texas.</h1>
+                    <h1 id="h1-about">I am a full-stack web developer located in Seguin Texas.</h1>
                     <p className="p-index"><h4>Some of the languages and technologies I work with are:</h4> React.js, MongoDB, Node.js, Express.js, Git, JavaScript, MySQL, Bootstrap, jQuery, Ajax, APIs, Object Oriented Programming, Linting and Continuous Integration, Progressive Web Apps, Web Optimization, Object Relational Mapping, Handlebars, HTML5, and CSS3.</p>
                     <p className="p-index">Here you can see some of the projects in my <a href="/portfolio" id="portfolio">portfolio</a></p>
                     <p className="p-index">Email me at <a href="mailto:ztayut2tx@gmail.com" id="email">ztayut2tx@gmail.com</a> or by phone at <a href="tel:+1-801-648-8668" id="phone">801-648-8668</a>.</p>

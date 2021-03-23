@@ -14,6 +14,7 @@
         "title": "Day Planner",
         "description": "Application used to plan a busy day",
         "technologies": "Javascript, moment.js",
+        "deployed": "https://ztayut2tx.github.io/Color-plan-your-day-/",
         "repo": "https://github.com/ztayut2tx/Color-plan-your-day-"
     },
     {
@@ -27,10 +28,11 @@
     },
     {
         "id": 4,
-        "image": "https://ibb.co/dQRQnmn",
+        "image": "https://i.ibb.co/mH3HQNQ/weather-icons-emblem-round-symbols-phases-moon-set-nice-icon-blue-glossy-badges-130686804.jpg",
         "title": "Whats the Weather?",
         "description": "A basic 5 day forecast of your current area",
         "technologies": "javascript,jquery,openweathermap api",
+        "deployed": "https://ztayut2tx.github.io/Whats-The-Weather/",
         "repo": "https://github.com/ztayut2tx/Whats-The-Weather"
     }
     
